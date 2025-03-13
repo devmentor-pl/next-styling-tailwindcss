@@ -1,0 +1,14 @@
+// app/button/page.module.scss
+@use '../mixins' as mx;
+
+.container {
+    @include mx.flex-center;
+
+    @include mx.use(tablet) {
+        background-color: red;
+    }
+
+    @include mx.use(desktop) {
+        background-color: blue;
+    }
+}

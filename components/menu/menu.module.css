@@ -1,0 +1,20 @@
+/* app/menu/menu.module.css */
+.list {
+    border: 1px solid red;
+}
+
+.shadow {
+    box-shadow: 10px 5px 5px yellow;
+}
+
+.item {
+    border: 1px solid red;
+}
+
+.link {
+    color: #336699;
+}
+
+.link:hover {
+    background: yellow;
+}

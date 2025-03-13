@@ -1,0 +1,18 @@
+// components/button/button.module.scss
+@use 'sass:color';
+@use '../../app/variables' as vars;
+
+.btn {
+    border: 5px solid vars.$primary-color;
+    color: vars.$secondary-color;
+
+    &:hover {
+        background-color: vars.$primary-color
+    }
+
+    &-lighten {
+        border: 5px solid color.scale(
+            vars.$primary-color, $lightness: 80%
+        )
+    }
+}
